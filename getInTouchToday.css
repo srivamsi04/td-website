@@ -1,0 +1,86 @@
+.Get-in-touch-today{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Get-in-touch-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Get-in-touch-content-header{
+    color: white;
+    font-size: 32px;
+    margin: 0px;
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    font-weight: 500;
+}
+.Get-in-touch-Body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 620PX;
+}
+.type-of-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.type-of-contact p{
+    color:rgb(0, 221, 151);
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+}
+.type-of-contact a{
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+    cursor: pointer;
+    line-height: 1.4;
+}
+.Get-in-touch-content a:hover{
+    color:rgb(0, 221, 151);
+    text-decoration: underline;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 600PX;
+    gap: 10px;
+    justify-content: space-between;
+    flex: 1;
+}
+.text-input{
+    display: flex;
+    font-size: 1;
+    background-color: #3c3d40;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+}
+.Message-text-input{
+    display: flex;
+    font-size: 1;
+    background-color: #3c3d40;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    height: 35px;
+}
+.send-btn{
+    background-color: rgb(0, 221, 151);
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    padding:12px 24px;
+    border-radius: 8px;
+}

@@ -1,0 +1,106 @@
+.blogposts{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 60px;
+    max-width: 1520px;
+}
+.blogposts h3{
+    color: white;
+    font-size: 40px;
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+.blogPosts-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.blogPosts-left-section,.blogPosts-right-section{
+    flex: 1;
+}
+.blogPosts-left-section{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   max-width: 700px;
+}
+.blogPosts-left-section-img{
+    height: 300px;
+    border-radius: 10px;
+}
+.blogPosts-left-section-content{
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.blogPosts-left-section-content-text{
+    font-size: 20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+}
+.blogPosts-right-section{
+    display: flex;
+   flex-direction: column;
+}
+
+.blogPosts-left-section-content-side{
+   display: flex;
+   gap: 16px;
+   align-items: center;
+}
+.blogPosts-left-section-content-side p{
+    margin: 0;
+    font-size: 14px;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+}
+.blogPosts-left-section-content-side-header{
+    color: #00dd97;
+}
+.blogPosts-left-section-content-date{
+    color: white;
+}
+.blogPosts-right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-blogPost{
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    
+}
+.right-blogPost-img{
+    width: 153px;
+    height: 108px;
+    border-radius: 10px;
+}
+.right-blogPost-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 108px;
+    flex: 1;
+}
+.right-blogPost-content-header{
+     margin: 0;
+    font-size: 14px;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+    color: #00dd97;
+}
+.right-blogPost-main-content{
+    font-size: 16px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+}
+.right-blogPost-content-date{
+     margin: 0;
+    font-size: 14px;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+    color: white;
+}

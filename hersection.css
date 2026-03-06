@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+.heroSection{
+    min-height: 100vh;
+    background-image: url("assets/Hero.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-between;*/
+    align-items: center;
+    color: white;
+    position: relative;
+    padding: 50px 40px 40px;
+    gap: 60px;
+}
+.hero-text-container{
+    max-width: 700px;   /* controls text width */
+    width: 100%;
+    text-align: center;
+    gap: 32px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+}
+.hero-top{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-title{
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+/* section 1.2 (A and B side by side) */
+.hero-sub-group{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+/* section 2 */
+.hero-bottom{
+    padding: 0px;
+    text-align: center;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+    color: rgb(175, 179, 177);
+    font-size: 16px;
+}
+.hero-a{
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(0, 219, 150);
+}
+.hero-b{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+
+    background: linear-gradient(0deg, rgb(162,162,163) 0%, rgb(255,255,255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Book-a-call-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    gap: 12px;
+    background-color: #00db96;
+    cursor: pointer;
+    width: fit-content;
+     margin: 0 auto;
+     text-decoration: none;
+}
+.Book-a-call-btn-text{
+    font-weight: 500;
+    color: rgb(9, 11, 16);
+    font-size: 16px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+.Book-a-call-btn-icon {
+    width: 22px;
+    height: 14px;
+}
+.Trusted-by-top-enterprises{
+
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     max-width: 700px;
+}
+
+.trusted-text{
+     padding: 0px;
+    text-align: center;
+    font-family: "Archivo", "Archivo Placeholder", sans-serif;
+    color: rgb(175, 179, 177);
+    font-size: 16px;
+}
+.trusted-logos{
+    display: flex;
+    flex-wrap: wrap;          /* allows next row */
+    justify-content: center;  /* center logos */
+    align-items: center;
+    gap: 20px;
+}
+.trusted-logos img{
+    height: 60px;
+}

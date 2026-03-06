@@ -1,0 +1,42 @@
+.Tradais-in-Numbers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 40px;
+}
+.Tradais-in-Numbers p{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    margin: 0px;
+}
+.Percentage{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Percentage-group{
+    gap: 8px;
+    width: fit-content;
+     transition: transform 0.3s ease;
+     cursor: default;
+}
+.Percentage-group:hover{
+    transform: translateY(-20px);
+}
+.Percentage h3{
+    color: rgb(0, 219, 150);
+    font-size: 52px;
+    font-weight: 600;
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    margin: 0px;
+}
+.Percentage p{
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    
+}

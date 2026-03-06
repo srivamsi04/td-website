@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="demo">vamsi</p>
+<div id="container" style="border: 1px solid black;
+padding: 10px;"><button>onclick</button></div>
+
+<script>
+// Access a paragraph Element
+const myPara = document.getElementById("demo");
+
+// Change the content of the Element
+myPara.innerHTML = "sri " +myPara.innerHTML;
+console.log(myPara.innerHTML)
+</script>
+<script>
+    const newpara=document.createElement("p");
+    newpara.textContent="para is added";
+    console.log(newpara);
+    document.getElementById("container").appendChild(newpara);
+</script>
+</body>
+</html>
