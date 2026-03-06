@@ -3,5 +3,12 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    gap: 120px;
+   
+}
+.page-container{
+     display: flex;
+    flex-direction: column;
+     gap: 120px;
+    max-width: 1520px;
+    margin: 0 auto;
 }
